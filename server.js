@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
   saveCounter(visitCount);
   res.send(`
 <h1>Welcome to the Visit Counter App! (My devOps practice app)</h1>
-<p>Visitor count: ${visitCount} <br> Name of server :
+<p>Visitor count: ${visitCount} <br> Nom du serveur :
 ${serverName} </p>
 `);
 });
